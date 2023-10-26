@@ -17,10 +17,8 @@ class App:
             "appium:appActivity": "com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity",
             "appium:newCommandTimeout": 6000,
             "appium:automationName": "UiAutomator2",
-            "appium:ensureWebviewsHavePages": True,
-            "appium:nativeWebScreenshot": True,
             "appium:connectHardwareKeyboard": True,
-            "appium:noReset":True
+            "appium:noReset": True
         }
 
         cls.driver = webdriver.Remote("http://127.0.0.1:4723", caps)
